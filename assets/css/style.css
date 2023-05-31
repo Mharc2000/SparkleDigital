@@ -1610,7 +1610,13 @@ section {
 
 h1{
   font-family: 'Lobster', cursive;
+
 }
+
+.heroTitle{
+  font-size: 3rem;
+}
+
 h2{
   font-family: 'Lobster', cursive;
 }
