@@ -755,6 +755,7 @@ section {
 .services .title a {
   color: #5E17EB;
   transition: 0.3s;
+  font-family: 'Lobster', cursive;
 }
 
 .services .title a:hover {
