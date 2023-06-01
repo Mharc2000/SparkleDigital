@@ -34,6 +34,32 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("e_7ZSKEdiurjWzhMJ");
+    })();
+  </script>
+
+  <!-- <script>
+    function sendEmail() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+      
+      var subject = "New Contact Form Submission";
+      var body = "Name: " + name + "\nEmail: " + email + "\n\n" + message;
+      
+      var mailtoLink = "mailto:your_email@example.com" +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+      
+      window.location.href = mailtoLink;
+    }
+  </script> -->
 </head>
 
 <body>
@@ -82,7 +108,8 @@
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-right">
             <div class="content d-flex flex-column justify-content-center">
-              <h1 class="display-4 mx-5 px-4"><img class="logo" width="60px" height="60px" src="assets/img/LogoWhite.png"><strong> We Offers</strong></h1>
+              <h1 class="display-4 mx-5 px-4"><img class="logo" width="60px" height="60px"
+                  src="assets/img/LogoWhite.png"><strong> We Offers</strong></h1>
 
             </div>
           </div>
@@ -233,23 +260,23 @@
           <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
             <img src="assets/img/branddesign.jpg" class="img-fluid" alt="">
           </div>
-      
-        <div class="col-md-7 pt-5" data-aos="fade-left">
-          <h2>Branding Design</h2>
-          <p>We create visually appealing brand identities, including logos, colors, and typography. By understanding
-            your brand's personality, values, and target market, we deliver designs that effectively communicate your
-            message. From marketing collateral to digital assets, we help establish a consistent brand presence.</p>
-          <ul>
-            <li><i class="bi bi-check"></i> Visually appealing brand identity creation, including logos, colors, and
-              typography.</li>
-            <li><i class="bi bi-check"></i> Designs that effectively communicate your brand's message by understanding
-              its personality, values, and target market.</li>
-            <li><i class="bi bi-check"></i> Assistance in establishing a consistent brand presence through various
-              marketing collateral and digital assets.</li>
-          </ul>
+
+          <div class="col-md-7 pt-5" data-aos="fade-left">
+            <h2>Branding Design</h2>
+            <p>We create visually appealing brand identities, including logos, colors, and typography. By understanding
+              your brand's personality, values, and target market, we deliver designs that effectively communicate your
+              message. From marketing collateral to digital assets, we help establish a consistent brand presence.</p>
+            <ul>
+              <li><i class="bi bi-check"></i> Visually appealing brand identity creation, including logos, colors, and
+                typography.</li>
+              <li><i class="bi bi-check"></i> Designs that effectively communicate your brand's message by understanding
+                its personality, values, and target market.</li>
+              <li><i class="bi bi-check"></i> Assistance in establishing a consistent brand presence through various
+                marketing collateral and digital assets.</li>
+            </ul>
+          </div>
         </div>
-      </div>
-  
+
       </div>
     </section><!-- End Features Section -->
 
@@ -270,7 +297,8 @@
             data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"> <i class='bx bx-bulb'></i></div>
-              <h4 class="title"><a href="">"Marketing is no longer about the stuff that you make, but about the stories you tell."</a></h4>
+              <h4 class="title"><a href="">"Marketing is no longer about the stuff that you make, but about the stories
+                  you tell."</a></h4>
               <p class="description">-Seth Godin</p>
             </div>
           </div>
@@ -288,7 +316,8 @@
             data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"> <i class='bx bx-bulb'></i></div>
-              <h4 class="title"><a href="">"The key to content marketing success is to create something that people want to share."</a></h4>
+              <h4 class="title"><a href="">"The key to content marketing success is to create something that people want
+                  to share."</a></h4>
               <p class="description">-Ann Handley</p>
             </div>
           </div>
@@ -296,7 +325,8 @@
             data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"> <i class='bx bx-bulb'></i></div>
-              <h4 class="title"><a href="">"Your brand is what other people say about you when you're not in the room."</a></h4>
+              <h4 class="title"><a href="">"Your brand is what other people say about you when you're not in the
+                  room."</a></h4>
               <p class="description">-Jeff Bezos</p>
             </div>
           </div>
@@ -334,7 +364,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  
+
                 </div>
               </div>
             </div>
@@ -349,7 +379,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  
+
                 </div>
               </div>
             </div>
@@ -364,7 +394,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                 
+
                 </div>
               </div>
             </div>
@@ -379,7 +409,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  
+
                 </div>
               </div>
             </div>
@@ -394,7 +424,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                 
+
                 </div>
               </div>
             </div>
@@ -409,7 +439,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  
+
                 </div>
               </div>
             </div>
@@ -424,7 +454,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                 
+
                 </div>
               </div>
             </div>
@@ -439,7 +469,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  
+
                 </div>
               </div>
             </div>
@@ -454,7 +484,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  
+
                 </div>
               </div>
             </div>
@@ -708,7 +738,7 @@
               </div>
             </div>
           </div>
-          
+
         </div>
         <br>
         <div class="row">
@@ -722,7 +752,7 @@
                 <li>Video creation</li>
                 <li>Production quality</li>
                 <li>Infographics </li>
-                <li>Social Media Graphics  </li>
+                <li>Social Media Graphics </li>
               </ul>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Subscribe</a>
@@ -765,7 +795,7 @@
             </div>
           </div>
 
-          
+
 
         </div>
 
@@ -827,7 +857,8 @@
 
           <li>
             <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Can you help with content creation?
-              <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+            </div>
             <div id="faq4" class="collapse" data-bs-parent=".faq-list">
               <p>
                 Absolutely! We have a team of skilled content creators who can assist with a wide range of content
@@ -853,7 +884,8 @@
 
           <li>
             <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">How do you approach branding design?
-              <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+            </div>
             <div id="faq6" class="collapse" data-bs-parent=".faq-list">
               <p>
                 Our branding design process involves thorough research and collaboration. We take the time to understand
@@ -886,12 +918,15 @@
               <div class="col-md-12">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.6069416076234!2d-87.63212212348562!3d41.87980246530692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cbca2abffd9%3A0xb355787ce762a4ac!2s140%20S%20Dearborn%20St%2C%20Chicago%2C%20IL%2060603%2C%20USA!5e0!3m2!1sen!2sph!4v1685582953258!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <h2>Our Address</h2>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.6069416076234!2d-87.63212212348562!3d41.87980246530692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cbca2abffd9%3A0xb355787ce762a4ac!2s140%20S%20Dearborn%20St%2C%20Chicago%2C%20IL%2060603%2C%20USA!5e0!3m2!1sen!2sph!4v1685582953258!5m2!1sen!2sph"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                   <p> <strong>140 S DEARBON ST CHIGAGO IL, 60603</strong></p>
                 </div>
               </div>
-           
+
               <!-- <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
@@ -909,17 +944,12 @@
               <div class="info-box mb-4">
                 <i class="bx bx-envelope"></i>
                 <h2>Email Us</h2>
-                <p><strong>info@sparkledigital.org</strong><br></p>
+                <h5><strong>info@sparkledigital.org</strong><br></h5>
               </div>
             </div>
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-
-                
-
-
-
+            <form class="border bg-white shadow" action="https://formspree.io/f/moqzoaor" method="POST">
+              <div class="row px-4 mt-4">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
@@ -927,21 +957,19 @@
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <div class="form-group mt-3 px-4">
+                <textarea class="form-control message" name="message" rows="5" placeholder="Message"
+                  required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <!-- <div class="loading">Loading</div> -->
+                <!-- <div class="error-message"></div> -->
+                <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center mb-4"><button type="submit" class="btn btn-primary">Send Message</button>
+              </div>
             </form>
           </div>
-
         </div>
 
       </div>
@@ -957,7 +985,7 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-contact">
-            <h2 class="logo" > <img class="logo" width="50px" height="50px" src="assets/img/SparkleLogo.png" alt=""> <a
+            <h2 class="logo"> <img class="logo" width="50px" height="50px" src="assets/img/SparkleLogo.png" alt=""> <a
                 href="index.html" style="color: #5E17EB">Sparkle Digital</a></h2>
             <p>
               140 S DEARBON ST <br>
